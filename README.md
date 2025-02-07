@@ -21,7 +21,7 @@ Bu mobil ilova foydalanuvchilarga vaqtni boshqarish uchun turli xil funksiyalarn
 ## O‘rnatish
 1. **Ilovani yuklab oling yoki loyihani klon qiling:**
    ```sh
-   git clone https://github.com/username/clock-app.git
+   https://github.com/Diyorbek-Sattorvardiyev/Clock-app.git
    ```
 2. **Android Studio orqali loyihani oching**
 3. **Emulator yoki haqiqiy qurilmada ishga tushuring**
