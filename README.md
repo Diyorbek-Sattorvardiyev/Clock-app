@@ -38,8 +38,5 @@ Bu mobil ilova foydalanuvchilarga vaqtni boshqarish uchun turli xil funksiyalarn
 - **Ilovani tunda ham qulay ishlatish uchun Dark Mode qo‘shish**
 - **Qo‘shimcha vaqt mintaqalarini import qilish imkoniyati**
 
-## Muallif
-- **Ism:** Diyorbek
-- **Email:** example@email.com
 
 
