@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center|start"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/uzbekistanTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uzbekistan Time"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/usaTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USA Time"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ukTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UK Time"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/germanyTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Germany Time"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/japanTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Japan Time"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/chinaTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="China Time"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/russiaTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Russia Time"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/indiaTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="India Time"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/brazilTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brazil Time"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/australiaTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Australia Time"
+        android:textSize="18sp" />
+
+</LinearLayout>

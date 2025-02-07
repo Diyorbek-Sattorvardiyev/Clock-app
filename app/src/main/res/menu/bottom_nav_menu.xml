@@ -1,0 +1,28 @@
+<!-- res/menu/bottom_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/budilnik"
+        android:icon="@drawable/img_3"
+        android:title="Budilnik" />
+
+    <item
+        android:id="@+id/xalqaroSoat"
+        android:icon="@drawable/img"
+        android:title="Xalqaro soat" />
+
+    <item
+        android:id="@+id/sekundamer"
+        android:icon="@drawable/img_2"
+        android:title="Sekundomer" />
+
+    <item
+        android:id="@+id/taymer"
+        android:icon="@drawable/img_1"
+        android:title="Taymer" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/img_4"
+        android:title="About" />
+
+</menu>

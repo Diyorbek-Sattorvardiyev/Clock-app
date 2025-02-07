@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#5DADE2"
+    android:layout_height="match_parent"
+    tools:context=".AlarmAlertActivity">
+
+    <TextView
+        android:id="@+id/currentTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:paddingBottom="100dp"
+        android:text="Joriy vaqt: 00:00:00 AM"
+        />
+
+    <TextView
+        android:id="@+id/alarmText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signal jiringlashi!"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"/>
+
+    <Button
+        android:background="@drawable/shape_buton"
+        android:id="@+id/stopAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signalni toʻxtatish"
+        android:layout_below="@id/alarmText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:background="@drawable/shape_buton"
+        android:id="@+id/snoozeAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 soniyaga kechiktirish"
+        android:layout_below="@+id/stopAlarmButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>

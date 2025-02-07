@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!-- Spinner for hour -->
+    <Spinner
+        android:id="@+id/hourSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/hour_array"/>
+
+    <!-- Spinner for minute -->
+    <Spinner
+        android:id="@+id/minuteSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/minute_array"/>
+
+    <!-- Spinner for second -->
+    <Spinner
+        android:id="@+id/secondSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/second_array"/>
+
+    <!-- TextView for showing time remaining -->
+    <TextView
+        android:id="@+id/timeRemainingText"
+        android:text="00:00:00"
+        android:textSize="48sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Start Button -->
+    <Button
+        android:background="@drawable/shape_buton"
+        android:id="@+id/startButton"
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Pause Button -->
+    <Button
+        android:background="@drawable/shape_buton"
+        android:id="@+id/pauseButton"
+        android:text="Pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Cancel Button -->
+    <Button
+        android:background="@drawable/shape_buton"
+        android:id="@+id/cancelButton"
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!-- Timer display -->
+    <TextView
+        android:id="@+id/timerText"
+        android:text="00:00:000"
+        android:textSize="48sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Start button -->
+    <Button
+        android:background="@drawable/shape_buton"
+        android:id="@+id/startButton"
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Lap button -->
+    <Button
+        android:background="@drawable/shape_buton"
+        android:id="@+id/lapButton"
+        android:text="Aylana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Clear button -->
+    <Button
+        android:background="@drawable/shape_buton"
+        android:id="@+id/clearButton"
+        android:text="Tozalash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- ListView for laps -->
+    <ListView
+        android:id="@+id/lapListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

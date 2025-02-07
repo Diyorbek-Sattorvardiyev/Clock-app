@@ -1,0 +1,21 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Tugma fon rangi -->
+    <solid android:color="#FC509553" />
+
+    <!-- Tugma burchaklarini yumaloqlashtirish -->
+    <corners android:radius="16dp" />
+
+    <!-- Tugma chegarasi (opsional) -->
+    <stroke
+        android:width="2dp"
+        android:color="#A6034E07" />
+
+    <!-- Tugma ichki chekkasiga bo'sh joy qo'shish (opsional) -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+</shape>
